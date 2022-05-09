@@ -24,14 +24,14 @@ Un serveur DHCP peut renvoyer des paramètres BOOTP ou de configuration propres 
 * Lorsque le serveur DHCP recevra le paquet de broadcast, il renverra un autre paquet de broadcast (n'oubliez pas que le client n'a pas forcement son adresse IP et que donc il n'est pas joignable directement) contenant toutes les informations requises pour le client.
 
 ### Listes des paquets DHCP
-DHCPDISCOVER (pour localiser les serveurs DHCP disponibles)
-DHCPOFFER (réponse du serveur à un paquet DHCPDISCOVER, qui contient les premiers paramètres)
-DHCPREQUEST (requête diverse du client pour par exemple prolonger son bail)
-DHCPACK (réponse du serveur qui contient des paramètres et l'adresse IP du client)
-DHCPNAK (réponse du serveur pour signaler au client que son bail est échu ou si le client annonce une mauvaise configuration réseau)
-DHCPDECLINE (le client annonce au serveur que l'adresse est déjà utilisée)
-DHCPRELEASE (le client libère son adresse IP)
-DHCPINFORM (le client demande des paramètres locaux, il a déjà son adresse IP)
+* DHCPDISCOVER (pour localiser les serveurs DHCP disponibles)
+* * DHCPOFFER (réponse du serveur à un paquet DHCPDISCOVER, qui contient les premiers paramètres)
+* DHCPREQUEST (requête diverse du client pour par exemple prolonger son bail)
+* DHCPACK (réponse du serveur qui contient des paramètres et l'adresse IP du client)
+* DHCPNAK (réponse du serveur pour signaler au client que son bail est échu ou si le client annonce une mauvaise configuration réseau)
+* DHCPDECLINE (le client annonce au serveur que l'adresse est déjà utilisée)
+* DHCPRELEASE (le client libère son adresse IP)
+* DHCPINFORM (le client demande des paramètres locaux, il a déjà son adresse IP)
 
 ![image](https://user-images.githubusercontent.com/83721477/167024987-fadbca7e-179a-46f2-abe4-9881ca21ea44.png)
 
