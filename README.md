@@ -25,7 +25,7 @@ Un serveur DHCP peut renvoyer des paramètres BOOTP ou de configuration propres 
 
 ### Listes des paquets DHCP
 * DHCPDISCOVER (pour localiser les serveurs DHCP disponibles)
-* * DHCPOFFER (réponse du serveur à un paquet DHCPDISCOVER, qui contient les premiers paramètres)
+* DHCPOFFER (réponse du serveur à un paquet DHCPDISCOVER, qui contient les premiers paramètres)
 * DHCPREQUEST (requête diverse du client pour par exemple prolonger son bail)
 * DHCPACK (réponse du serveur qui contient des paramètres et l'adresse IP du client)
 * DHCPNAK (réponse du serveur pour signaler au client que son bail est échu ou si le client annonce une mauvaise configuration réseau)
