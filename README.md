@@ -64,6 +64,6 @@ Un client DHCP attend une offre pendant une seconde. En cas de non réponse il r
 
 ## Note
 Au démarrage:
-* le client DHCP tente de renouveler son bail avec les paramètres qu'il possède déjà en s'adressant au serveur DHCP à l'origine du bail (message DhcpRequest).
+* Le client DHCP tente de renouveler son bail avec les paramètres qu'il possède déjà en s'adressant au serveur DHCP à l'origine du bail (message DhcpRequest).
 * Si le bail est renouvelé le client continue avec un nouveau bail et éventuellement de nouveaux paramètres (message DhcpAck).
 * Si la demande n'aboutit pas, il continue à utiliser les paramètres en vigueur.
